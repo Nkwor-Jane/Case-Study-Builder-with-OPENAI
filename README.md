@@ -1,4 +1,4 @@
-# Case-Study-Builder-with-OPENAI
+# Case-Study-Assistant-with-OPENAI
 ## Table of content:
 
 1. [About the project](#about-the-project)
@@ -32,12 +32,19 @@ For this project i used:
 - [Reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page)
 
 ## Server-side
-- [CORS}(https://www.npmjs.com/package/cors)
+- [CORS](https://www.npmjs.com/package/cors)
 - [DOTENV](https://www.npmjs.com/package/dotenv)
-- ExpressJS](https://expressjs.com/)
+- [ExpressJS](https://expressjs.com/)
 - [MULTER](https://www.npmjs.com/package/multer)
 - [NODEMON](https://www.npmjs.com/package/nodemon)
 - [OPENAI](https://platform.openai.com/)
+
+## Final results
+#### IMAGE 1
+![case-study-screenshot-5](https://user-images.githubusercontent.com/69125833/224136941-dfb15c29-f956-4535-9b6f-11bf0ea3faae.png)
+#### IMAGE 2
+![case-study-screenshot-6](https://user-images.githubusercontent.com/69125833/224139059-3733e623-b639-427d-8339-acc4493a701c.png)
+
 
 ## What you can do?!
 
