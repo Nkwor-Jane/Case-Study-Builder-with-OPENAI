@@ -27,38 +27,48 @@ const CaseStudy = ({result}) => {
         <button onClick={handlePrint} className="outline-double outline-3 outline-offset-2
         m-4 p-2 rounded outline-blue-500 font-bold hover:bg-blue-500 hover:text-white ">Print Case Study</button>
       </div>
-        <main className='container outline outline-4 outline-black bg-blue-400 text-white' ref={componentRef}>
-            <header className="flex flex-wrap justisy-between">
-              <section>
-                <h1 className="font-extrabold  text-5xl">{result.headline}</h1><br/>
-              </section>
-              <section>
-                <h3>Introduction</h3>
-                <p>{result.introduction}</p>
-              </section>
-            </header>
-
-            <div className="object rounded-full m-2">
-              <img
-                src={result.image_url}
-                alt={result.headline}
-                className="object-cover h-48 w-96 rounded-full"
-              />
-            </div>
-            <div className="body">
-                <div>
-                  <h3>Problems</h3>
-                  <h4>{result.problems}</h4><br/>
-                  <h3>Solution</h3>
-                  <h4>{result.solutionPoints}</h4><br/>
-                  <h3>Results</h3>
-                  <h4>{result.resultsPoints}</h4><br/>
+        <main className='container text-black grid grid-cols-3 m-4' ref={componentRef}>
+            <section className=" ">
+            <section className="bg-purple-300 p-3 row-span-4">
+              <div className="m-2 flex justify-center items-center flex-column w-full ">
+                  <img
+                    src={result.image_url}
+                    alt={result.headline}
+                    className="object-cover object-center w-6/12 rounded-full "
+                  />
+                  <h1 className="font-bold italic text-5xl">{result.headline}</h1><br/>
                 </div>
-                <div className="inspiration">
-                  <h3>Inspiration</h3>
-                  <p>{result.inspirationPoints}</p><br/>
-                  <h3>Quote</h3>
-                  <p className="text-3xl font-bold underline"><em>"{result.quote}"</em></p>
+                  
+            </section>
+            <div>
+              <section className="bg-purple-100 p-4">
+                <h3>Introduction</h3>
+                <p className="text-left">{result.introduction}</p>
+              </section>
+            </div>
+
+            <div className="inspiration pl-4 bg-slate-300 p-4">
+                  <h3 className="text-2xl font-bold pb-2">Inspiration</h3>
+                  <p className="text-justify">{result.inspirationPoints}</p><br/>
+                  {/* <h3 className="text-2xl font-bold pb-2">Quote</h3>
+                  <p className="text-1xl font-bold"><em>"{result.quote}"</em></p> */}
+                </div>
+            </section>
+
+            <div className="body col-span-2 bg-purple-100 pr-2">
+                <div>
+                  <section className=" w-full p-4">
+                    <h3 className="text-2xl font-bold pb-2">Problems</h3>
+                    <p className="text-justify">{result.problems}</p><br/>
+                  </section>
+                  <section className="p-4">
+                    <h3 className="text-2xl font-bold pb-2">Solution</h3>
+                    <p className="text-justify">{result.solutionPoints}</p><br/>
+                  </section>
+                  <section className="p-4">
+                  <h3 className="text-2xl font-bold pb-2">Results</h3>
+                  <p className="text-justify">{result.resultsPoints}</p><br/>
+                  </section>
                 </div>
             </div>
         </main>

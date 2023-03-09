@@ -49,7 +49,7 @@ const Home = ({setResult}) => {
     return (
     <div className="app flex justify-center items-center flex-col w-full">
         <div className='my-4 text-center'>
-            <h1 className='p-2 font-extrabold text-5xl'>Case Study Builder</h1>
+            <h1 className='p-2 font-extrabold text-5xl'>Case Study Assustant</h1>
             <p className='font-medium text-base italic'>Generate a CaseStudy with ChatGPT in a few seconds</p>
        </div>
        <form
@@ -71,11 +71,12 @@ const Home = ({setResult}) => {
                 />
             </div>
             <div className='p-4'>
-                    <label htmlFor="snapshot" className='text-base font-semi-bold'>UPLOAD :</label><br/>
+                    <label htmlFor="snapshot" className='text-base font-semi-bold'>UPLOAD COMPANY LOGO:</label><br/>
                     <input
                         type="file"
                         required
                         name="photo"
+                        placeholder='Company Logo'
                         id="photo"
                         accept="image/x-png,image/jpeg"
                         onChange={(e) => setSnapshot(e.target.files[0])}
@@ -158,7 +159,7 @@ const Home = ({setResult}) => {
                 </div>
             </div>
             <div>
-                    <button className='w-full p-3 rounded-sm text-white outline outline-offset-2 outline-pink-500 hover:bg-pink-400 bg-pink-300 my-4'>Create Case Study</button>
+                    <button className='w-full p-3 rounded-sm text-white font-bold text-xl outline outline-offset-2 outline-blue-400 hover:bg-blue-300 bg-blue-500  my-4'>Create Case Study</button>
                 </div>
        </form>
     </div>

@@ -77,13 +77,13 @@ app.post("/study/create", upload.single("snapshotImage"), async (req, res) =>{
 
         //CASE STUDY PROMPTS
         // INTRODUCTION PROMPT
-        const prompt1 = `I am writing a technical case study on ${headline}, Can you write a 50 words introduction for the top of the technical case study(first person writing)?`;
+        const prompt1 = `I am writing a technical case study on ${headline}, Can you write a 100 words introduction for the top of the technical case study(first person writing)?`;
         //problem prompt
-        const prompt2 = `I am writing a technical case study on ${headline}. This is the  ${problem}, Can you write  25 words describing the problem of the technical case study(first person writing)?`;
+        const prompt2 = `I am writing a technical case study on ${headline}. This is the  ${problem}, Can you write  50 words describing the problem of the technical case study(first person writing)?`;
         //  solution prompt
-        const prompt3 = `I am writing a technical case study on ${headline}. This is the  ${solution} offered, Can you write 75 words solution offered in the technical case study(first person writing)?`;
+        const prompt3 = `I am writing a technical case study on ${headline}. This is the  ${solution} offered, Can you write 150 words solution offered in the technical case study(first person writing)?`;
         //RESULTS PROMPT
-        const prompt4 = `I am writing a technical case study on ${headline}. This is the  ${results}, Can you write 50 words explaining the results of the technical case study(first person writing)?`;
+        const prompt4 = `I am writing a technical case study on ${headline}. This is the  ${results}, Can you write 75 words explaining the results of the technical case study(first person writing)?`;
         //  INSPIRATION PROMPT
         const prompt5 =  `I am writing a technical case study on ${headline}. This is the  ${inspiration}, Can you write  20 words describing the inspiration of the technical case study(first person writing)?`;
 
