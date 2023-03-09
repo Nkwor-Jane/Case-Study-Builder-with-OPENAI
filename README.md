@@ -45,9 +45,7 @@ For this project i used:
 #### IMAGE 2
 ![case-study-screenshot-6](https://user-images.githubusercontent.com/69125833/224139059-3733e623-b639-427d-8339-acc4493a701c.png)
 
-
 ## What you can do?!
-
 I could use your suggestions and feedback for this project and other projects. Thank you.
 
 ## Useful resources
