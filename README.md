@@ -4,9 +4,11 @@
 1. [About the project](#about-the-project)
 1. [Built with](#built-with)
 1. [What you can do?!](#what-you-can-do...?!)
-1. [Useful resources](#useful-resources)
-1. [Acknowledgments](#acknowledgments)
-1. [Author](#author)
+2. [Final Results](#final-results)
+3. [Clone this Repo](#clone-this-repo)
+4. [Useful resources](#useful-resources)
+5. [Acknowledgments](#acknowledgments)
+6. [Author](#author)
 
 ## About the project
 
@@ -47,6 +49,15 @@ For this project i used:
 
 ## What you can do?!
 I could use your suggestions and feedback for this project and other projects. Thank you.
+
+## Clone this Repo
+If you are interested inclone this repository, these are the steps to follow:
+* In your terminal, clone this repository by typing - git clone https://github.com/Nkwor-Jane/Case-Study-Builder-with-OPENAI/
+* Change directory to client, npm install to install all dependencies
+* Change directory to server, npm install to install all dependencies
+* Create an OpenAI account
+* Add an API Key to your accountto allow communication with the API.
+* Start both servers using npm start
 
 ## Useful resources
 - [Creating a resume builder with React and Nodejs](https://dev.to/novu/creating-a-resume-builder-with-react-nodejs-and-ai-4k6l)
