@@ -50,7 +50,7 @@ const Home = ({setResult}) => {
     <div className="app flex justify-center items-center flex-col w-full">
         <div className='my-4 text-center'>
             <h1 className='p-2 font-extrabold text-5xl'>Case Study Assistant</h1>
-            <p className='font-medium text-base italic'>Generate a CaseStudy with ChatGPT in a few seconds</p>
+            <p className='font-medium text-base italic'>Generate a CaseStudy Assistant with ChatGPT in a few seconds</p>
        </div>
        <form
         onSubmit={handleSubmit}
