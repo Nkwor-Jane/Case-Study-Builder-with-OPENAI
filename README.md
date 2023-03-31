@@ -3,6 +3,7 @@
 
 1. [About the project](#about-the-project)
 1. [Built with](#built-with)
+2. [Live Demo](#live-demo)
 1. [What you can do?!](#what-you-can-do...?!)
 2. [Final Results](#final-results)
 3. [Clone this Repo](#clone-this-repo)
@@ -21,6 +22,9 @@ Users should be able to:
 - Generate a case study
 - Print the case study
 - Download the case study
+
+## Live Demo
+Use this case study assistant - https://whimsical-sprinkles-cd74be.netlify.app/
 
 ## Built with
 
