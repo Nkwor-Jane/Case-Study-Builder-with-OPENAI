@@ -39,7 +39,7 @@ const Home = ({setResult}) => {
                     navigate("/study")
                 }
             })
-            .catch((err) => console.log(err.response.data))
+            .catch((err) => console.log(err))
             setLoading(true);
     };
     //RENDERS THE LOADING COMPONENT WHEN YOU SUBMIT THE FORM
